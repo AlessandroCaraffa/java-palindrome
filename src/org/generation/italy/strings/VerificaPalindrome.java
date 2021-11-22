@@ -13,8 +13,12 @@ public class VerificaPalindrome {
 		}
 		if (parolaBackwords.equals(parola)) {
 			System.out.println("La parola è un palindromo,ed è lunga " + parola.length() + " caratteri." );
+		}else {
+			System.out.println("La parola non è un palindromo.");
 		}
 //		System.out.println(parolaBackwords);
+		
+		scan.close();
 		
 		
 		
